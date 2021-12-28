@@ -1,10 +1,11 @@
 #include "someClass.h"
 
-Some::Some(std::string msg) : message(msg) {
-};
+#include <utility>
 
-void Some::showMessage()
-{
+Some::Some(std::string msg) : message(std::move(msg)) {}
+
+void Some::showMessage() {
     std::cout << message << std::endl;
-};
-Some::~Some(){};
+}
+
+Some::~Some() = default;

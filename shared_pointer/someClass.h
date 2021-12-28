@@ -1,10 +1,11 @@
 #pragma once
+
 #include <iostream>
 #include <memory>
 
-class Some
-{
+class Some {
 public:
     ~Some();
-    void showMessage();
+
+    static void showMessage();
 };

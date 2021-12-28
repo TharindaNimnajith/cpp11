@@ -1,7 +1,7 @@
 #include "someClass.h"
 
-void Some::showMessage()
-{
+void Some::showMessage() {
     std::cout << "Hi there" << std::endl;
-};
-Some::~Some(){};
+}
+
+Some::~Some() = default;
