@@ -5,8 +5,9 @@
 
 #include "Counter.h"
 
-template<class T>
-class SharePointer {
+template <class T>
+class SharePointer
+{
 private:
     Counter *m_counter;
 

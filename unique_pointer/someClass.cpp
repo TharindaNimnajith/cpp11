@@ -4,7 +4,8 @@
 
 Some::Some(std::string msg) : message(std::move(msg)) {}
 
-void Some::showMessage() {
+void Some::showMessage()
+{
     std::cout << message << std::endl;
 }
 

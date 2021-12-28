@@ -5,7 +5,8 @@
 #include "someClass.h"
 #include "SharePointer.cpp"
 
-int main() {
+int main()
+{
     SharePointer<Some> obj1(new Some());
     {
         std::cout << "Scope start " << std::endl;

@@ -2,7 +2,8 @@
 
 #include <iostream>
 
-class Some {
+class Some
+{
 private:
     std::string message;
 
