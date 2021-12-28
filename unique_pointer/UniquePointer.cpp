@@ -27,7 +27,9 @@ template <class T>
 UniquePointer<T> &UniquePointer<T>::operator=(UniquePointer &&obj) noexcept
 {
     if (ptr != nullptr)
+    {
         delete ptr;
+    }
     this->ptr = obj.ptr;
     obj.ptr = nullptr;
 }
@@ -48,7 +50,9 @@ template <class T>
 UniquePointer<T>::~UniquePointer()
 {
     if (ptr != nullptr)
+    {
         std::cout << "Object destroyed" << std::endl;
+    }
     delete ptr;
 }
 

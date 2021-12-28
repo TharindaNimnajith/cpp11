@@ -2,7 +2,9 @@
 
 #include <utility>
 
-Some::Some(std::string msg) : message(std::move(msg)) {}
+Some::Some(std::string msg) : message(std::move(msg))
+{
+}
 
 void Some::showMessage()
 {

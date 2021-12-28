@@ -8,7 +8,9 @@
 class Counter
 {
 private:
-    unsigned int m_counter{};
+    unsigned int m_counter
+    {
+    };
 
 public:
     Counter();
@@ -16,10 +18,8 @@ public:
     ~Counter();
 
     Counter(const Counter &) = delete;
-    ;
 
     Counter &operator=(const Counter &) = delete;
-    ;
 
     void reset();
 

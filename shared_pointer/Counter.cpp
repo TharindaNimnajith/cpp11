@@ -4,7 +4,9 @@
 
 #include "Counter.h"
 
-Counter::Counter() : m_counter(0) {}
+Counter::Counter() : m_counter(0)
+{
+}
 
 // Destructor
 Counter::~Counter() = default;
