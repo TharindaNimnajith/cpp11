@@ -47,6 +47,6 @@ void Counter::operator--(int)
 // std::ostream &Counter::operator<<(ostream &os, const Counter &counter) {
 //    os << "Counter Value : " << counter.m_counter << std::endl;
 //    return os;
-//}
+// }
 
 #pragma clang diagnostic pop
