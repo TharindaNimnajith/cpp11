@@ -1,0 +1,8 @@
+1) Create your own implementations of unique pointer and shared pointer.
+   Study the std unique and std shared pointer implementations.
+   Create your own implementation of shared pointer and unique pointer.
+   Make sure to have separate set of files for  each implementation.
+   Add unit tests for each implementation and make sure at lease 90% of scenarios are covered.
+   Use of C++11 or above features are preferred.
+
+2) Implement a class/code segment to depict std::move usage with std::string and illustrate a scenario when the std::move is not effective in strings and explain the reason.
