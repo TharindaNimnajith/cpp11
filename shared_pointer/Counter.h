@@ -8,9 +8,7 @@
 class Counter
 {
 private:
-    unsigned int m_counter
-    {
-    };
+    unsigned int m_counter{};
 
 public:
     Counter();
