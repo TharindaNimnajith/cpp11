@@ -307,22 +307,22 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ClCompile Include="D:\cpp11\shared_pointer\Counter.cpp" />
     <ClInclude Include="D:\cpp11\shared_pointer\Counter.h" />
-    <ClCompile Include="D:\cpp11\shared_pointer\main.cpp">
-      <ObjectFileName>$(IntDir)/shared_pointer/main.cpp.obj</ObjectFileName>
+    <ClCompile Include="D:\cpp11\shared_pointer\Main.cpp">
+      <ObjectFileName>$(IntDir)/shared_pointer/Main.cpp.obj</ObjectFileName>
     </ClCompile>
     <ClCompile Include="D:\cpp11\shared_pointer\SharePointer.cpp" />
     <ClInclude Include="D:\cpp11\shared_pointer\SharePointer.h" />
-    <ClCompile Include="D:\cpp11\shared_pointer\someClass.cpp">
-      <ObjectFileName>$(IntDir)/shared_pointer/someClass.cpp.obj</ObjectFileName>
+    <ClCompile Include="D:\cpp11\shared_pointer\SomeClass.cpp">
+      <ObjectFileName>$(IntDir)/shared_pointer/SomeClass.cpp.obj</ObjectFileName>
     </ClCompile>
-    <ClInclude Include="D:\cpp11\shared_pointer\someClass.h" />
-    <ClCompile Include="D:\cpp11\unique_pointer\main.cpp">
-      <ObjectFileName>$(IntDir)/unique_pointer/main.cpp.obj</ObjectFileName>
+    <ClInclude Include="D:\cpp11\shared_pointer\SomeClass.h" />
+    <ClCompile Include="D:\cpp11\unique_pointer\Main.cpp">
+      <ObjectFileName>$(IntDir)/unique_pointer/Main.cpp.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="D:\cpp11\unique_pointer\someClass.cpp">
-      <ObjectFileName>$(IntDir)/unique_pointer/someClass.cpp.obj</ObjectFileName>
+    <ClCompile Include="D:\cpp11\unique_pointer\SomeClass.cpp">
+      <ObjectFileName>$(IntDir)/unique_pointer/SomeClass.cpp.obj</ObjectFileName>
     </ClCompile>
-    <ClInclude Include="D:\cpp11\unique_pointer\someClass.h" />
+    <ClInclude Include="D:\cpp11\unique_pointer\SomeClass.h" />
     <ClCompile Include="D:\cpp11\unique_pointer\UniquePointer.cpp" />
     <ClInclude Include="D:\cpp11\unique_pointer\UniquePointer.h" />
   </ItemGroup>

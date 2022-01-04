@@ -4,19 +4,19 @@
     <ClCompile Include="D:\cpp11\shared_pointer\Counter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\cpp11\shared_pointer\main.cpp">
+    <ClCompile Include="D:\cpp11\shared_pointer\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="D:\cpp11\shared_pointer\SharePointer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\cpp11\shared_pointer\someClass.cpp">
+    <ClCompile Include="D:\cpp11\shared_pointer\SomeClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\cpp11\unique_pointer\main.cpp">
+    <ClCompile Include="D:\cpp11\unique_pointer\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\cpp11\unique_pointer\someClass.cpp">
+    <ClCompile Include="D:\cpp11\unique_pointer\SomeClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="D:\cpp11\unique_pointer\UniquePointer.cpp">
@@ -30,10 +30,10 @@
     <ClInclude Include="D:\cpp11\shared_pointer\SharePointer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\cpp11\shared_pointer\someClass.h">
+    <ClInclude Include="D:\cpp11\shared_pointer\SomeClass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\cpp11\unique_pointer\someClass.h">
+    <ClInclude Include="D:\cpp11\unique_pointer\SomeClass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="D:\cpp11\unique_pointer\UniquePointer.h">
