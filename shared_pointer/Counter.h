@@ -16,8 +16,6 @@ public:
 
     Counter();
 
-    ~Counter();
-
     Counter(const Counter &) = delete;
 
     Counter &operator=(const Counter &) = delete;
@@ -35,6 +33,8 @@ public:
     void operator--(int);
 
     // friend std::ostream &operator<<(std::ostream &os, const Counter &counter);
+
+    ~Counter();
 
 };
 

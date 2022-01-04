@@ -7,9 +7,6 @@
 Counter::Counter() : m_counter(0) {
 }
 
-// Destructor
-Counter::~Counter() = default;
-
 void Counter::reset() {
     m_counter = 0;
 }
@@ -41,5 +38,8 @@ void Counter::operator--(int) {
 //    os << "Counter Value : " << counter.m_counter << std::endl;
 //    return os;
 // }
+
+// Destructor
+Counter::~Counter() = default;
 
 #pragma clang diagnostic pop

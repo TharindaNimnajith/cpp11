@@ -19,9 +19,9 @@ public:
 
     UniquePointer(const UniquePointer *obj) = delete;
 
-    UniquePointer &operator=(const UniquePointer &obj) = delete;
-
     UniquePointer(UniquePointer &&obj) noexcept;
+
+    UniquePointer &operator=(const UniquePointer &obj) = delete;
 
     UniquePointer &operator=(UniquePointer &&obj) noexcept;
 

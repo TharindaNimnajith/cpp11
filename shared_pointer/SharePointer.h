@@ -17,11 +17,9 @@ private:
 
 public:
 
-    ~SharePointer();
+    SharePointer(SharePointer<T> &sp);
 
     explicit SharePointer(T *ptr = nullptr);
-
-    SharePointer(SharePointer<T> &sp);
 
     unsigned int use_count();
 
@@ -30,5 +28,7 @@ public:
     T &operator*();
 
     T *operator->();
+
+    ~SharePointer();
 
 };

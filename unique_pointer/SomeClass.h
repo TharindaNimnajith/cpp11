@@ -13,8 +13,8 @@ public:
 
     explicit Some(std::string msg);
 
-    ~Some();
-
     void showMessage();
+
+    ~Some();
 
 };

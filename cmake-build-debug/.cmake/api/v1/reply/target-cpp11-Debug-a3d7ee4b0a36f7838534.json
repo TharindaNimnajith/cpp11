@@ -159,7 +159,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "shared_pointer/main.cpp",
+			"path" : "shared_pointer/Main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -176,29 +176,29 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "shared_pointer/someClass.cpp",
+			"path" : "shared_pointer/SomeClass.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "shared_pointer/someClass.h",
+			"path" : "shared_pointer/SomeClass.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "unique_pointer/main.cpp",
+			"path" : "unique_pointer/Main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "unique_pointer/someClass.cpp",
+			"path" : "unique_pointer/SomeClass.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "unique_pointer/someClass.h",
+			"path" : "unique_pointer/SomeClass.h",
 			"sourceGroupIndex" : 1
 		},
 		{
