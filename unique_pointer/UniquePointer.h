@@ -3,13 +3,16 @@
 #pragma clang diagnostic ignored "-Wunknown-pragmas"
 #pragma ide diagnostic ignored "OCUnusedGlobalDeclarationInspection"
 
-template <class T>
-class UniquePointer
-{
+template<class T>
+class UniquePointer {
+
 private:
+
     T *ptr = nullptr;
 
+
 public:
+
     UniquePointer();
 
     explicit UniquePointer(T *ptr);
@@ -27,6 +30,7 @@ public:
     T &operator*();
 
     ~UniquePointer();
+
 };
 
 #pragma clang diagnostic pop

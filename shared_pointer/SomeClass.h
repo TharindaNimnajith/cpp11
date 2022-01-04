@@ -3,10 +3,12 @@
 #include <iostream>
 #include <memory>
 
-class Some
-{
+class Some {
+
 public:
+
     ~Some();
 
     static void showMessage();
+
 };

@@ -68,7 +68,7 @@ build CMakeFiles\cpp11.dir\shared_pointer\Counter.cpp.obj: CXX_COMPILER__cpp11_D
   TARGET_COMPILE_PDB = CMakeFiles\cpp11.dir\
   TARGET_PDB = cpp11.pdb
 
-build CMakeFiles\cpp11.dir\shared_pointer\main.cpp.obj: CXX_COMPILER__cpp11_Debug D$:\cpp11\shared_pointer\main.cpp || cmake_object_order_depends_target_cpp11
+build CMakeFiles\cpp11.dir\shared_pointer\Main.cpp.obj: CXX_COMPILER__cpp11_Debug D$:\cpp11\shared_pointer\Main.cpp || cmake_object_order_depends_target_cpp11
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++14
   INCLUDES = -ID:\cpp11\shared_pointer -ID:\cpp11\unique_pointer
   OBJECT_DIR = CMakeFiles\cpp11.dir
@@ -84,7 +84,7 @@ build CMakeFiles\cpp11.dir\shared_pointer\SharePointer.cpp.obj: CXX_COMPILER__cp
   TARGET_COMPILE_PDB = CMakeFiles\cpp11.dir\
   TARGET_PDB = cpp11.pdb
 
-build CMakeFiles\cpp11.dir\shared_pointer\someClass.cpp.obj: CXX_COMPILER__cpp11_Debug D$:\cpp11\shared_pointer\someClass.cpp || cmake_object_order_depends_target_cpp11
+build CMakeFiles\cpp11.dir\shared_pointer\SomeClass.cpp.obj: CXX_COMPILER__cpp11_Debug D$:\cpp11\shared_pointer\SomeClass.cpp || cmake_object_order_depends_target_cpp11
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++14
   INCLUDES = -ID:\cpp11\shared_pointer -ID:\cpp11\unique_pointer
   OBJECT_DIR = CMakeFiles\cpp11.dir
@@ -92,7 +92,7 @@ build CMakeFiles\cpp11.dir\shared_pointer\someClass.cpp.obj: CXX_COMPILER__cpp11
   TARGET_COMPILE_PDB = CMakeFiles\cpp11.dir\
   TARGET_PDB = cpp11.pdb
 
-build CMakeFiles\cpp11.dir\unique_pointer\main.cpp.obj: CXX_COMPILER__cpp11_Debug D$:\cpp11\unique_pointer\main.cpp || cmake_object_order_depends_target_cpp11
+build CMakeFiles\cpp11.dir\unique_pointer\Main.cpp.obj: CXX_COMPILER__cpp11_Debug D$:\cpp11\unique_pointer\Main.cpp || cmake_object_order_depends_target_cpp11
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++14
   INCLUDES = -ID:\cpp11\shared_pointer -ID:\cpp11\unique_pointer
   OBJECT_DIR = CMakeFiles\cpp11.dir
@@ -100,7 +100,7 @@ build CMakeFiles\cpp11.dir\unique_pointer\main.cpp.obj: CXX_COMPILER__cpp11_Debu
   TARGET_COMPILE_PDB = CMakeFiles\cpp11.dir\
   TARGET_PDB = cpp11.pdb
 
-build CMakeFiles\cpp11.dir\unique_pointer\someClass.cpp.obj: CXX_COMPILER__cpp11_Debug D$:\cpp11\unique_pointer\someClass.cpp || cmake_object_order_depends_target_cpp11
+build CMakeFiles\cpp11.dir\unique_pointer\SomeClass.cpp.obj: CXX_COMPILER__cpp11_Debug D$:\cpp11\unique_pointer\SomeClass.cpp || cmake_object_order_depends_target_cpp11
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++14
   INCLUDES = -ID:\cpp11\shared_pointer -ID:\cpp11\unique_pointer
   OBJECT_DIR = CMakeFiles\cpp11.dir
@@ -124,7 +124,7 @@ build CMakeFiles\cpp11.dir\unique_pointer\UniquePointer.cpp.obj: CXX_COMPILER__c
 #############################################
 # Link the executable cpp11.exe
 
-build cpp11.exe: CXX_EXECUTABLE_LINKER__cpp11_Debug CMakeFiles\cpp11.dir\shared_pointer\Counter.cpp.obj CMakeFiles\cpp11.dir\shared_pointer\main.cpp.obj CMakeFiles\cpp11.dir\shared_pointer\SharePointer.cpp.obj CMakeFiles\cpp11.dir\shared_pointer\someClass.cpp.obj CMakeFiles\cpp11.dir\unique_pointer\main.cpp.obj CMakeFiles\cpp11.dir\unique_pointer\someClass.cpp.obj CMakeFiles\cpp11.dir\unique_pointer\UniquePointer.cpp.obj
+build cpp11.exe: CXX_EXECUTABLE_LINKER__cpp11_Debug CMakeFiles\cpp11.dir\shared_pointer\Counter.cpp.obj CMakeFiles\cpp11.dir\shared_pointer\Main.cpp.obj CMakeFiles\cpp11.dir\shared_pointer\SharePointer.cpp.obj CMakeFiles\cpp11.dir\shared_pointer\SomeClass.cpp.obj CMakeFiles\cpp11.dir\unique_pointer\Main.cpp.obj CMakeFiles\cpp11.dir\unique_pointer\SomeClass.cpp.obj CMakeFiles\cpp11.dir\unique_pointer\UniquePointer.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:X86 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

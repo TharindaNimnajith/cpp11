@@ -2,11 +2,10 @@
 #pragma clang diagnostic ignored "-Wunknown-pragmas"
 #pragma ide diagnostic ignored "UnusedValue"
 
-#include "someClass.h"
+#include "SomeClass.h"
 #include "SharePointer.cpp"
 
-int main()
-{
+int main() {
     SharePointer<Some> obj1(new Some());
     {
         std::cout << "Scope start " << std::endl;

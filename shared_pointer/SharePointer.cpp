@@ -5,55 +5,46 @@
 #include "SharePointer.h"
 #include <iostream>
 
-template <class T>
-SharePointer<T>::SharePointer(SharePointer<T> &sp)
-{
+template<class T>
+SharePointer<T>::SharePointer(SharePointer<T> &sp) {
     m_ptr = sp.m_ptr;
     m_counter = sp.m_counter;
     (*m_counter)++;
 }
 
-template <class T>
-SharePointer<T>::SharePointer(T *ptr)
-{
+template<class T>
+SharePointer<T>::SharePointer(T *ptr) {
     m_ptr = ptr;
     m_counter = new Counter();
-    if (ptr)
-    {
+    if (ptr) {
         (*m_counter)++;
     }
 }
 
-template <class T>
-unsigned int SharePointer<T>::use_count()
-{
+template<class T>
+unsigned int SharePointer<T>::use_count() {
     return m_counter->get();
 }
 
-template <class T>
-T *SharePointer<T>::get()
-{
+template<class T>
+T *SharePointer<T>::get() {
     return m_ptr;
 }
 
-template <class T>
-T &SharePointer<T>::operator*()
-{
+template<class T>
+T &SharePointer<T>::operator*() {
     return *m_ptr;
 }
 
-template <class T>
-T *SharePointer<T>::operator->()
-{
+template<class T>
+T *SharePointer<T>::operator->() {
     return m_ptr;
 }
 
-template <class T>
-SharePointer<T>::~SharePointer()
-{
+template<class T>
+SharePointer<T>::~SharePointer() {
     (*m_counter)--;
-    if (m_counter->get() == 0)
-    {
+    if (m_counter->get() == 0) {
         delete m_counter;
         delete m_ptr;
     }

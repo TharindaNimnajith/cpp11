@@ -9,13 +9,13 @@ include_directories(unique_pointer)
 add_executable(cpp11
         shared_pointer/Counter.cpp
         shared_pointer/Counter.h
-        shared_pointer/main.cpp
+        shared_pointer/Main.cpp
         shared_pointer/SharePointer.cpp
         shared_pointer/SharePointer.h
-        shared_pointer/someClass.cpp
-        shared_pointer/someClass.h
-        unique_pointer/main.cpp
-        unique_pointer/someClass.cpp
-        unique_pointer/someClass.h
+        shared_pointer/SomeClass.cpp
+        shared_pointer/SomeClass.h
+        unique_pointer/Main.cpp
+        unique_pointer/SomeClass.cpp
+        unique_pointer/SomeClass.h
         unique_pointer/UniquePointer.cpp
         unique_pointer/UniquePointer.h)

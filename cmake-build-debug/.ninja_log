@@ -1,0 +1,9 @@
+# ninja log v5
+0	19	0	clean	815aee50a90f16a0
+37	1022	6629963259274756	CMakeFiles/cpp11.dir/unique_pointer/UniquePointer.cpp.obj	e7fc6f09d504182a
+15	999	6629963258954249	CMakeFiles/cpp11.dir/shared_pointer/SharePointer.cpp.obj	90efdd4e56d3c82
+19	1003	6629963259054255	CMakeFiles/cpp11.dir/shared_pointer/someClass.cpp.obj	ae4e04a911f0c
+0	1017	6629963259134260	CMakeFiles/cpp11.dir/shared_pointer/Counter.cpp.obj	4da091427bfe2690
+22	1018	6629963259174271	CMakeFiles/cpp11.dir/shared_pointer/main.cpp.obj	9d4dea128045e42a
+25	1023	6629963259194262	CMakeFiles/cpp11.dir/unique_pointer/someClass.cpp.obj	5c5740ff1c7e6de8
+29	1028	6629963259344257	CMakeFiles/cpp11.dir/unique_pointer/main.cpp.obj	d663e47bdd1b6d72

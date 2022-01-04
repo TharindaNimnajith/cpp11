@@ -5,12 +5,15 @@
 
 #include <iostream>
 
-class Counter
-{
+class Counter {
+
 private:
+
     unsigned int m_counter{};
 
+
 public:
+
     Counter();
 
     ~Counter();
@@ -32,6 +35,7 @@ public:
     void operator--(int);
 
     // friend std::ostream &operator<<(std::ostream &os, const Counter &counter);
+
 };
 
 #pragma clang diagnostic pop

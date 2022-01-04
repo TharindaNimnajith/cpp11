@@ -1,7 +1,6 @@
-#include "someClass.h"
+#include "SomeClass.h"
 
-void Some::showMessage()
-{
+void Some::showMessage() {
     std::cout << "Hi there" << std::endl;
 }
 
