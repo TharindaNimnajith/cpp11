@@ -1,0 +1,32 @@
+C++11 Features
+
+01. NULL -> nullptr
+02. standard types with fixed size variables (int8_t, int16_t, int32_t, int64_t, uint8_t, uint16_t, uint32_t, uint64_t)
+03. escape characters ("hi \"c++03\" hi") -> raw string literals (R"(hi "c++11" hi)")
+04. in-class member initializers
+05. delegating constructors
+06. override
+07. final
+08. static_assert
+09. type_traits
+10. auto
+11. decltype
+12. std::function
+13. std::bind
+14. std::tuple
+15. lambdas / closures / recursive lambdas
+16. uniform initialization and std::initializer_list
+17. suffix return type syntax
+18. using
+19. explicit conversion operators
+20. control of defaults: default and delete
+21. enum class - scoped and strongly typed enums
+22. user-defined literals
+23. move semantics
+24. constexpr
+25. range-for, begin, end
+26. memory management - shared_ptr, unique_ptr, weak_ptr
+27. variadic template
+28. stl (std::array, forward_list, std::unordered_set, std::unordered_map, std::unordered_multiset,
+    std::unordered_multimap, std::regex, std::chrono, std::ratio, and many new algorithms)
+29. std::thread
